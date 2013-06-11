@@ -4,7 +4,7 @@ Donate link: http://danholloran.com/
 Tags: upload, form, ajax
 Requires at least: 3.5
 Tested up to: 3.5.1
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,7 +18,9 @@ Wordpress media gallery.  Includes a shortcode `[wp-multi-file-uploader]` for us
 
 **What this plugin does not do:** This plugin does not make sure that the user is allowed to add a file but it does restrict the file type to the WordPress supported file types by default, this has been updated to dynamically get the supported file types for your WordPress install.  The file upload size limit is now restricted to either the WordPress or PHP INI limit this can be changed.  It also does not play nice at the moment with Wordpress form building plugins, if you integrate it with one please let me know and submit a pull request this is a feature I would like to eventually get integrated.
 
-**Both the short code and the function accept 2 parameters.** `allowed_mime_types` accepts a comma separated white space sensitive list, ex: jpg,png,gif `max_file_size` accepts the file size in megabytes ex: 4 = 4mb
+**Both the short code and the function accept 2 parameters.**
+`allowed_mime_types` accepts a comma separated white space sensitive list, ex: jpg,png,gif
+`max_file_size` accepts the file size in megabytes ex: 4 = 4mb
 
 **Thanks to:** This project incorporates the excellent file uploader at [https://github.com/valums/file-uploader](https://github.com/valums/file-uploader), if your project is included and I do not have you added please let me know, thank you.
 
@@ -46,6 +48,9 @@ Initial Release
 * Added support for overriding default accepted file types.
 * Added support for overriding default file size.
 * Misc. clean up
+
+== 1.1.1 ==
+* Fixed extract error with shortcode
 
 == Upgrade Notice ==
 
