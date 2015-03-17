@@ -4,7 +4,7 @@ Donate link: http://danholloran.com/
 Tags: upload, form, ajax
 Requires at least: 3.5
 Tested up to: 3.6.1
-Stable tag: 1.1.3
+Stable tag: 1.1.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -74,3 +74,6 @@ Fixed image uploads not creating all the attachment sizes
 
 == 1.1.3 ==
 Fixed issue with upload failing for video files.  Fixed issue with not creating correct image sizes.
+
+== 1.1.3 ==
+Fixed files with uppercase extensions not allowed to be uploaded.
