@@ -164,7 +164,8 @@ class WPFMU_FileUploadHandler extends WPMFU_Plugin
 		$wpmfu_post_options = get_option( "wpmfu_{$_POST['postId']}", array() );
 
 		// Make sure the file type is allowed
-		if ( in_array( $filetype['ext'], $wpmfu_post_options['allowed_mime_types'] ) ) {
+		$ext = ( isset( $filetype['ext'] ) ) ? strtolower( $filetype['ext'] ) : '';
+		if ( in_array( $ext, $wpmfu_post_options['allowed_mime_types'] ) ) {
 			return true;
 		}
 
