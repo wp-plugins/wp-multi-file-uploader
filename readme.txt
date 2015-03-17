@@ -75,5 +75,5 @@ Fixed image uploads not creating all the attachment sizes
 == 1.1.3 ==
 Fixed issue with upload failing for video files.  Fixed issue with not creating correct image sizes.
 
-== 1.1.3 ==
+== 1.1.4 ==
 Fixed files with uppercase extensions not allowed to be uploaded.
