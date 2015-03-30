@@ -58,6 +58,9 @@ Initial Release
 == 1.1.3 ==
 * Fixed issue with upload failing for video files.  Fixed issue with not creating correct image sizes.
 
+== 1.1.4 ==
+* Fixed files with uppercase extensions not allowed to be uploaded.
+
 == Upgrade Notice ==
 
 = 1.0.0 =
