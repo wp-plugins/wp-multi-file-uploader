@@ -1,6 +1,6 @@
 === Plugin Name ===
 Contributors: dholloran
-Donate link: http://danholloran.com/
+Donate link: http://danholloran.me/
 Tags: upload, form, ajax
 Requires at least: 3.5
 Tested up to: 3.6.1
@@ -14,7 +14,7 @@ Allows a user to submit multiple files when added to a form on your Wordpress si
 Allows a user to submit multiple files from a form on your Wordpress site via AJAX to Wordpress default uploads folder and adds an attachment to the
 Wordpress media gallery.  Includes a shortcode `[wp-multi-file-uploader]` for use in a form created in the post editor and a function for use in a form in a template file `wp_multi_file_uploader();`.
 
-**Plugin Home Page:** [http://danholloran.com/wp-multi-file-uploader/](http://danholloran.com/wp-multi-file-uploader/)
+**Plugin Home Page:** [http://danholloran.me/WPMultiFileUploader/](http://danholloran.me/WPMultiFileUploader/)
 
 **What this plugin does not do:** This plugin does not make sure that the user is allowed to add a file but it does restrict the file type to the WordPress supported file types by default, this has been updated to dynamically get the supported file types for your WordPress install.  The file upload size limit is now restricted to either the WordPress or PHP INI limit this can be changed.  It also does not play nice at the moment with Wordpress form building plugins, if you integrate it with one please let me know and submit a pull request this is a feature I would like to eventually get integrated.
 
@@ -24,7 +24,7 @@ Wordpress media gallery.  Includes a shortcode `[wp-multi-file-uploader]` for us
 
 **Thanks to:** This project incorporates the excellent file uploader at [https://github.com/valums/file-uploader](https://github.com/valums/file-uploader), if your project is included and I do not have you added please let me know, thank you.
 
-If you have any issues please submit an [issue](https://github.com/DHolloran/WPMultiFileUploader/issues/new) or fix it/submit a pull request I will try to handle it ASAP. You an also contact me at [support@danholloran.com](mailto:support@danholloran.com).
+If you have any issues please submit an [issue](https://github.com/DHolloran/WPMultiFileUploader/issues/new) or fix it/submit a pull request I will try to handle it ASAP. You an also contact me at [dtholloran@gmail.com](mailto:dtholloran@gmail.com).
 
 == Installation ==
 1. Upload `wp-multi-file-uploader` to the `/wp-content/plugins/` directory
@@ -33,7 +33,7 @@ If you have any issues please submit an [issue](https://github.com/DHolloran/WPM
 3. For each file uploaded the plugin will add a hidden input field `name="wp_multi_file_uploader_[NUMBER]"` with [NUMBER] representing the amount of files starting at 1 and the value will be the uploads attachment id
 
 == Frequently Asked Questions ==
-None so far... If you have any issues please submit an [issue](https://github.com/DHolloran/WPMultiFileUploader/issues/new) or fix it/submit a pull request I will try to handle it ASAP. You an also contact me at [support@danholloran.com](mailto:support@danholloran.com).
+None so far... If you have any issues please submit an [issue](https://github.com/DHolloran/WPMultiFileUploader/issues/new) or fix it/submit a pull request I will try to handle it ASAP. You an also contact me at [dtholloran@gmail.com](mailto:dtholloran@gmail.com).
 
 == Screenshots ==
 1. /assets/screenshot1.png
